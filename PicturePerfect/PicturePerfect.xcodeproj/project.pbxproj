@@ -12,6 +12,7 @@
 		FD42B2A1257B277300DD175D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD42B2A0257B277300DD175D /* Assets.xcassets */; };
 		FD42B2A4257B277300DD175D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD42B2A3257B277300DD175D /* Preview Assets.xcassets */; };
 		FD42B2B2257B298C00DD175D /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42B2B1257B298C00DD175D /* NavView.swift */; };
+		FD4464D9257BF1C900370585 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4464D8257BF1C900370585 /* NotificationView.swift */; };
 		FD6822FB257B2EBB00932398 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6822FA257B2EBB00932398 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		FD42B2A3257B277300DD175D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD42B2A5257B277300DD175D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD42B2B1257B298C00DD175D /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		FD4464D8257BF1C900370585 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		FD6822FA257B2EBB00932398 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 			children = (
 				FD42B2B1257B298C00DD175D /* NavView.swift */,
 				FD6822FA257B2EBB00932398 /* PostView.swift */,
+				FD4464D8257BF1C900370585 /* NotificationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				FD42B29F257B277200DD175D /* ContentView.swift in Sources */,
 				FD6822FB257B2EBB00932398 /* PostView.swift in Sources */,
 				FD42B29D257B277200DD175D /* PicturePerfectApp.swift in Sources */,
+				FD4464D9257BF1C900370585 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,14 +15,8 @@ struct ContentView: View {
                     NavView()
                     
                     ScrollView {
-                        HStack {
-                            Image(systemName: "rosette")
-                                .font(.title)
-                            
-                            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-                            
-                            Image(systemName: "xmark")
-                        }
+                        NotificationView()
+                        
                         ForEach(0..<5) { item in
                             PostView()
                                 .padding(.vertical, 40)
