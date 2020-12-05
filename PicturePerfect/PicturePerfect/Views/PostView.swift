@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct PostView: View {
+    
+    var avatar: String = ""
+    var userName: String = "John Smith"
+    var userPosition: String = "Photographer"
+    var mainImage: String = ""
+    
     var body: some View {
         VStack {
             HStack {
-                Image(systemName: "person.circle")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 50)
+                if avatar == "" {
+                    Image(systemName: "person.circle")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 50)
+                } else {
+                    Image(avatar)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(Circle())
+                        .frame(width: 70)
+                        .cornerRadius(10)
+                }
                 
                 VStack(alignment: .leading) {
                     Text("John Smith")
@@ -30,10 +45,10 @@ struct PostView: View {
                     .padding()
             }
             
-            Image(systemName: "seal.fill")
+            Image(mainImage)
                 .resizable()
-                .foregroundColor(Color(.systemGreen))
                 .scaledToFit()
+                .padding(.vertical, 20)
                 
         }
         .cornerRadius(20)

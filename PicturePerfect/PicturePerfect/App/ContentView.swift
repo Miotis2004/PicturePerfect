@@ -18,7 +18,7 @@ struct ContentView: View {
                         NotificationView()
                         
                         ForEach(0..<5) { item in
-                            PostView()
+                            PostView(avatar: "JohnSmithSelfie", userName: "John Smith", userPosition: "Photographer", mainImage: "landscape-\(item + 1)")
                                 .padding(.vertical, 40)
                         }
                     }
